@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\AIController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RealController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Card.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeckOfCards.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SetOfCards.cpp">
+      <Filter>Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\City.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AIController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RealController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayerController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Card.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CardType.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeckOfCards.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SetOfCards.h">
+      <Filter>Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\City.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Print.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{b80c7049-cf79-4d2a-aad9-3fcc1e663fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cards">
+      <UniqueIdentifier>{f08ba49a-8a28-4cd2-afb8-21d7b5ee74f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{68492a88-4537-4fca-b5bf-03b75f83a8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{7c8246f8-9ecb-450f-a80c-51687ac0f80e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

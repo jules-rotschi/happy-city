@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="City.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="CardCost.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="City.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="CardType.h" />
+  </ItemGroup>
+</Project>

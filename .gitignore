@@ -1,0 +1,6 @@
+/.vs
+/x64
+/HappyCity
+/build
+CMakeCache.txt
+HappyCity.vcxproj.user
